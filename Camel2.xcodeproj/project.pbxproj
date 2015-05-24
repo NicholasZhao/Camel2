@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3922281B12129500600D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3922271B12129500600D2D /* main.m */; };
+		1F39222B1B12129500600D2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39222A1B12129500600D2D /* AppDelegate.m */; };
+		1F39222E1B12129500600D2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39222D1B12129500600D2D /* ViewController.m */; };
+		1F3922311B12129500600D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F39222F1B12129500600D2D /* Main.storyboard */; };
+		1F3922331B12129500600D2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3922321B12129500600D2D /* Images.xcassets */; };
+		1F3922361B12129500600D2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3922341B12129500600D2D /* LaunchScreen.xib */; };
+		1F3922421B12129500600D2D /* Camel2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3922411B12129500600D2D /* Camel2Tests.m */; };
+		1F3922501B12130800600D2D /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39224D1B12130800600D2D /* ICSDrawerController.m */; };
+		1F3922511B12130800600D2D /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39224F1B12130800600D2D /* ICSDropShadowView.m */; };
+		1F3922551B12144C00600D2D /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3922541B12144C00600D2D /* MenuViewController.m */; };
+		1F3922581B1215B200600D2D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3922571B1215B200600D2D /* MainViewController.m */; };
+		1F39225B1B121B7B00600D2D /* hamburg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F39225A1B121B7B00600D2D /* hamburg.png */; };
+		1F39225E1B12270A00600D2D /* CompanyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39225D1B12270A00600D2D /* CompanyListViewController.m */; };
+		1F3922611B122DAD00600D2D /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3922601B122DAD00600D2D /* MessageViewController.m */; };
+		1F3922641B122DBB00600D2D /* DeskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3922631B122DBB00600D2D /* DeskViewController.m */; };
+		1F3922661B122E4700600D2D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3922651B122E4700600D2D /* 1.png */; };
+		1F3922691B122FEC00600D2D /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3922681B122FEC00600D2D /* ContactViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F39223C1B12129500600D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F39221A1B12129500600D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F3922211B12129500600D2D;
+			remoteInfo = Camel2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F3922221B12129500600D2D /* Camel2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camel2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3922261B12129500600D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3922271B12129500600D2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F3922291B12129500600D2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F39222A1B12129500600D2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F39222C1B12129500600D2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F39222D1B12129500600D2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F3922301B12129500600D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F3922321B12129500600D2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F3922351B12129500600D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F39223B1B12129500600D2D /* Camel2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Camel2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3922401B12129500600D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3922411B12129500600D2D /* Camel2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Camel2Tests.m; sourceTree = "<group>"; };
+		1F39224C1B12130800600D2D /* ICSDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDrawerController.h; sourceTree = "<group>"; };
+		1F39224D1B12130800600D2D /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
+		1F39224E1B12130800600D2D /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
+		1F39224F1B12130800600D2D /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
+		1F3922531B12144C00600D2D /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		1F3922541B12144C00600D2D /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		1F3922561B1215B200600D2D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1F3922571B1215B200600D2D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1F39225A1B121B7B00600D2D /* hamburg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburg.png; sourceTree = "<group>"; };
+		1F39225C1B12270A00600D2D /* CompanyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyListViewController.h; sourceTree = "<group>"; };
+		1F39225D1B12270A00600D2D /* CompanyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyListViewController.m; sourceTree = "<group>"; };
+		1F39225F1B122DAD00600D2D /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		1F3922601B122DAD00600D2D /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		1F3922621B122DBB00600D2D /* DeskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeskViewController.h; sourceTree = "<group>"; };
+		1F3922631B122DBB00600D2D /* DeskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeskViewController.m; sourceTree = "<group>"; };
+		1F3922651B122E4700600D2D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		1F3922671B122FEC00600D2D /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		1F3922681B122FEC00600D2D /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F39221F1B12129500600D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3922381B12129500600D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3922191B12129500600D2D = {
+			isa = PBXGroup;
+			children = (
+				1F3922241B12129500600D2D /* Camel2 */,
+				1F39223E1B12129500600D2D /* Camel2Tests */,
+				1F3922231B12129500600D2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F3922231B12129500600D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F3922221B12129500600D2D /* Camel2.app */,
+				1F39223B1B12129500600D2D /* Camel2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F3922241B12129500600D2D /* Camel2 */ = {
+			isa = PBXGroup;
+			children = (
+				1F3922291B12129500600D2D /* AppDelegate.h */,
+				1F39222A1B12129500600D2D /* AppDelegate.m */,
+				1F39224B1B1212DE00600D2D /* ICSDrawerController */,
+				1F3922521B1213CB00600D2D /* Controllers */,
+				1F3922591B121B4400600D2D /* Resources */,
+				1F39222F1B12129500600D2D /* Main.storyboard */,
+				1F3922321B12129500600D2D /* Images.xcassets */,
+				1F3922341B12129500600D2D /* LaunchScreen.xib */,
+				1F3922251B12129500600D2D /* Supporting Files */,
+			);
+			path = Camel2;
+			sourceTree = "<group>";
+		};
+		1F3922251B12129500600D2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F3922261B12129500600D2D /* Info.plist */,
+				1F3922271B12129500600D2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F39223E1B12129500600D2D /* Camel2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F3922411B12129500600D2D /* Camel2Tests.m */,
+				1F39223F1B12129500600D2D /* Supporting Files */,
+			);
+			path = Camel2Tests;
+			sourceTree = "<group>";
+		};
+		1F39223F1B12129500600D2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F3922401B12129500600D2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F39224B1B1212DE00600D2D /* ICSDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				1F39224C1B12130800600D2D /* ICSDrawerController.h */,
+				1F39224D1B12130800600D2D /* ICSDrawerController.m */,
+				1F39224E1B12130800600D2D /* ICSDropShadowView.h */,
+				1F39224F1B12130800600D2D /* ICSDropShadowView.m */,
+			);
+			name = ICSDrawerController;
+			sourceTree = "<group>";
+		};
+		1F3922521B1213CB00600D2D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F39222C1B12129500600D2D /* ViewController.h */,
+				1F39222D1B12129500600D2D /* ViewController.m */,
+				1F3922531B12144C00600D2D /* MenuViewController.h */,
+				1F3922541B12144C00600D2D /* MenuViewController.m */,
+				1F3922561B1215B200600D2D /* MainViewController.h */,
+				1F3922571B1215B200600D2D /* MainViewController.m */,
+				1F39225C1B12270A00600D2D /* CompanyListViewController.h */,
+				1F39225D1B12270A00600D2D /* CompanyListViewController.m */,
+				1F39225F1B122DAD00600D2D /* MessageViewController.h */,
+				1F3922601B122DAD00600D2D /* MessageViewController.m */,
+				1F3922621B122DBB00600D2D /* DeskViewController.h */,
+				1F3922631B122DBB00600D2D /* DeskViewController.m */,
+				1F3922671B122FEC00600D2D /* ContactViewController.h */,
+				1F3922681B122FEC00600D2D /* ContactViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1F3922591B121B4400600D2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F3922651B122E4700600D2D /* 1.png */,
+				1F39225A1B121B7B00600D2D /* hamburg.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F3922211B12129500600D2D /* Camel2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3922451B12129500600D2D /* Build configuration list for PBXNativeTarget "Camel2" */;
+			buildPhases = (
+				1F39221E1B12129500600D2D /* Sources */,
+				1F39221F1B12129500600D2D /* Frameworks */,
+				1F3922201B12129500600D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camel2;
+			productName = Camel2;
+			productReference = 1F3922221B12129500600D2D /* Camel2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F39223A1B12129500600D2D /* Camel2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3922481B12129500600D2D /* Build configuration list for PBXNativeTarget "Camel2Tests" */;
+			buildPhases = (
+				1F3922371B12129500600D2D /* Sources */,
+				1F3922381B12129500600D2D /* Frameworks */,
+				1F3922391B12129500600D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F39223D1B12129500600D2D /* PBXTargetDependency */,
+			);
+			name = Camel2Tests;
+			productName = Camel2Tests;
+			productReference = 1F39223B1B12129500600D2D /* Camel2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F39221A1B12129500600D2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Sahara Studio";
+				TargetAttributes = {
+					1F3922211B12129500600D2D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1F39223A1B12129500600D2D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1F3922211B12129500600D2D;
+					};
+				};
+			};
+			buildConfigurationList = 1F39221D1B12129500600D2D /* Build configuration list for PBXProject "Camel2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F3922191B12129500600D2D;
+			productRefGroup = 1F3922231B12129500600D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F3922211B12129500600D2D /* Camel2 */,
+				1F39223A1B12129500600D2D /* Camel2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F3922201B12129500600D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3922311B12129500600D2D /* Main.storyboard in Resources */,
+				1F39225B1B121B7B00600D2D /* hamburg.png in Resources */,
+				1F3922361B12129500600D2D /* LaunchScreen.xib in Resources */,
+				1F3922331B12129500600D2D /* Images.xcassets in Resources */,
+				1F3922661B122E4700600D2D /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3922391B12129500600D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F39221E1B12129500600D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F39225E1B12270A00600D2D /* CompanyListViewController.m in Sources */,
+				1F3922501B12130800600D2D /* ICSDrawerController.m in Sources */,
+				1F3922551B12144C00600D2D /* MenuViewController.m in Sources */,
+				1F39222E1B12129500600D2D /* ViewController.m in Sources */,
+				1F39222B1B12129500600D2D /* AppDelegate.m in Sources */,
+				1F3922641B122DBB00600D2D /* DeskViewController.m in Sources */,
+				1F3922581B1215B200600D2D /* MainViewController.m in Sources */,
+				1F3922611B122DAD00600D2D /* MessageViewController.m in Sources */,
+				1F3922281B12129500600D2D /* main.m in Sources */,
+				1F3922691B122FEC00600D2D /* ContactViewController.m in Sources */,
+				1F3922511B12130800600D2D /* ICSDropShadowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3922371B12129500600D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3922421B12129500600D2D /* Camel2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F39223D1B12129500600D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F3922211B12129500600D2D /* Camel2 */;
+			targetProxy = 1F39223C1B12129500600D2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F39222F1B12129500600D2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3922301B12129500600D2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F3922341B12129500600D2D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3922351B12129500600D2D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F3922431B12129500600D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F3922441B12129500600D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F3922461B12129500600D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Camel2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F3922471B12129500600D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Camel2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F3922491B12129500600D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Camel2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camel2.app/Camel2";
+			};
+			name = Debug;
+		};
+		1F39224A1B12129500600D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Camel2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camel2.app/Camel2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F39221D1B12129500600D2D /* Build configuration list for PBXProject "Camel2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3922431B12129500600D2D /* Debug */,
+				1F3922441B12129500600D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F3922451B12129500600D2D /* Build configuration list for PBXNativeTarget "Camel2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3922461B12129500600D2D /* Debug */,
+				1F3922471B12129500600D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F3922481B12129500600D2D /* Build configuration list for PBXNativeTarget "Camel2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3922491B12129500600D2D /* Debug */,
+				1F39224A1B12129500600D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F39221A1B12129500600D2D /* Project object */;
+}
