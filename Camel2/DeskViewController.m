@@ -26,6 +26,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor blueColor];
+    
+    FunctionListModule *functions = [[FunctionListModule alloc]init];
+    [self.view addSubview: functions.view];
+    [self addChildViewController: functions];
 }
 
 - (void)didReceiveMemoryWarning {

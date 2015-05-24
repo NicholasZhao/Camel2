@@ -24,6 +24,7 @@
 		1F3922641B122DBB00600D2D /* DeskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3922631B122DBB00600D2D /* DeskViewController.m */; };
 		1F3922661B122E4700600D2D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3922651B122E4700600D2D /* 1.png */; };
 		1F3922691B122FEC00600D2D /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3922681B122FEC00600D2D /* ContactViewController.m */; };
+		1F39226C1B12348500600D2D /* FunctionListModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39226B1B12348500600D2D /* FunctionListModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		1F3922651B122E4700600D2D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		1F3922671B122FEC00600D2D /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		1F3922681B122FEC00600D2D /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		1F39226A1B12348500600D2D /* FunctionListModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionListModule.h; sourceTree = "<group>"; };
+		1F39226B1B12348500600D2D /* FunctionListModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionListModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 				1F3922631B122DBB00600D2D /* DeskViewController.m */,
 				1F3922671B122FEC00600D2D /* ContactViewController.h */,
 				1F3922681B122FEC00600D2D /* ContactViewController.m */,
+				1F39226A1B12348500600D2D /* FunctionListModule.h */,
+				1F39226B1B12348500600D2D /* FunctionListModule.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 				1F39222B1B12129500600D2D /* AppDelegate.m in Sources */,
 				1F3922641B122DBB00600D2D /* DeskViewController.m in Sources */,
 				1F3922581B1215B200600D2D /* MainViewController.m in Sources */,
+				1F39226C1B12348500600D2D /* FunctionListModule.m in Sources */,
 				1F3922611B122DAD00600D2D /* MessageViewController.m in Sources */,
 				1F3922281B12129500600D2D /* main.m in Sources */,
 				1F3922691B122FEC00600D2D /* ContactViewController.m in Sources */,
