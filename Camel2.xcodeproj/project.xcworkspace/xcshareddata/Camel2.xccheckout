@@ -7,21 +7,21 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>3734168D-6BB4-4EF4-B7E9-A667EE95451F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Camel2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4F862CE43E230357E3FF12C94F4B9ED4135A8824</key>
-		<string>github.com:NicholasZhao/Camel2.git</string>
+		<string>ssh://github.com/NicholasZhao/Camel2.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Camel2.xcodeproj/project.xcworkspace</string>
+	<string>Camel2.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4F862CE43E230357E3FF12C94F4B9ED4135A8824</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:NicholasZhao/Camel2.git</string>
+	<string>ssh://github.com/NicholasZhao/Camel2.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

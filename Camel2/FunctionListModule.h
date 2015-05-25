@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AttendanceListViewController.h"
 
 @interface FunctionListModule : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
 {

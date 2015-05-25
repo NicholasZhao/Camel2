@@ -66,16 +66,31 @@
 //设置元素大小
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    return CGSizeMake(60,60);
+    return CGSizeMake(50,50);
 }
 //UICollectionView被选中时调用的方法
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionViewCell * cell = (UICollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    cell.backgroundColor = [UIColor whiteColor];
+    cell.backgroundColor = [UIColor grayColor];
     
     if (indexPath.item == 0) {
         NSLog(@"clicking on function 0.");
+    } else if (indexPath.item == 1) {
+        NSLog(@"clicking on function 1.");
+    } else if (indexPath.item == 2) {
+        NSLog(@"clicking on function 2.");
+        
+        AttendanceListViewController *attendanceListVC = [[AttendanceListViewController alloc] init];
+        [self.view addSubview: attendanceListVC.view];
+        [self addChildViewController: attendanceListVC];
+        
+    } else if (indexPath.item == 3) {
+        NSLog(@"clicking on function 3.");
+    } else if (indexPath.item == 4) {
+        NSLog(@"clicking on function 4.");
+    } else if (indexPath.item == 5) {
+        NSLog(@"clicking on function 5.");
     }
 }
 
