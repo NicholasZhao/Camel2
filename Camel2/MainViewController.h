@@ -11,6 +11,7 @@
 #import "MessageViewController.h"
 #import "DeskViewController.h"
 #import "ContactViewController.h"
+#import "HeaderModule.h"
 
 @interface MainViewController : UIViewController<ICSDrawerControllerChild, ICSDrawerControllerPresenting>
 

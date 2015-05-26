@@ -11,6 +11,7 @@
 @interface MainViewController ()
 
 @property(nonatomic, strong) UIButton *openDrawerButton;
+@property(nonatomic, strong) UILabel *headerText;
 
 @end
 
@@ -18,53 +19,44 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Initialize and add the openDrawerButton
-    UIImage *hamburger = [UIImage imageNamed:@"hamburg.png"];
-    NSParameterAssert(hamburger);
-    
-    self.openDrawerButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.openDrawerButton.frame = CGRectMake(10.0f, 20.0f, 44.0f, 44.0f);
-    [self.openDrawerButton setImage:hamburger forState:UIControlStateNormal];
-    [self.openDrawerButton addTarget:self action:@selector(openDrawer:) forControlEvents:UIControlEventTouchUpInside];
-    
-    
+
     // Add the tabbar
     self.title = @"一卡通测试企业";
     //self.view = [[UITabBar alloc] init];
-//    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor clearColor];
     
     
     UITabBarController *switchTabBar = [[UITabBarController alloc] init];
-    //    switchTabBar.delegate = self;
+    //switchTabBar.delegate = self;
     MessageViewController *messageVC = [[MessageViewController alloc] init];
     DeskViewController *deskVC = [[DeskViewController alloc] init];
     ContactViewController *contactVC = [[ContactViewController alloc] init];
     
     NSArray *switchViewArray = [NSArray arrayWithObjects:messageVC,deskVC,contactVC,nil];
     switchTabBar.viewControllers = switchViewArray;
-    switchTabBar.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    switchTabBar.view.frame = CGRectMake(0, 75, self.view.frame.size.width, self.view.frame.size.height - 75);
     [self.view addSubview: switchTabBar.view];
     [self addChildViewController: switchTabBar];
-    [self.view addSubview:self.openDrawerButton];
     
+    // Initialize and add the openDrawerButton
+    UIImage *hamburger = [UIImage imageNamed:@"cute_head_image.jpg"];
+    self.openDrawerButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.openDrawerButton.frame = CGRectMake(10.0f, 20.0f, 44.0f, 44.0f);
+    [self.openDrawerButton setImage:hamburger forState:UIControlStateNormal];
+    [self.openDrawerButton addTarget:self action:@selector(openDrawer:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview: self.openDrawerButton];
     
+    // Add the header text
+    self.headerText.frame = CGRectMake(100, 25, 200, 40);
+    self.headerText.text = @"测试企业";
+    self.headerText.textColor = [UIColor blackColor];
+    [self.view addSubview: self.headerText];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 #pragma mark - Configuring the view’s layout behavior
 

@@ -11,7 +11,7 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4F862CE43E230357E3FF12C94F4B9ED4135A8824</key>
-		<string>ssh://github.com/NicholasZhao/Camel2.git</string>
+		<string>github.com:NicholasZhao/Camel2.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Camel2.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/NicholasZhao/Camel2.git</string>
+	<string>github.com:NicholasZhao/Camel2.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
