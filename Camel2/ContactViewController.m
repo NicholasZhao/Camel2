@@ -23,6 +23,7 @@
 
 - (id)init {
     if ([super init] != nil) {
+        self.title = @"一卡通测试企业";
         UITabBarItem *item = [[UITabBarItem alloc] initWithTitle:@"通讯录" image:[UIImage imageNamed:@"1.png"] tag:101];
         self.tabBarItem = item;
     }
@@ -41,6 +42,9 @@
     
     self.indexArray = [ChineseString IndexArray:stringsToSort];
     self.LetterResultArr = [ChineseString LetterSortArray:stringsToSort];
+    
+    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(selectLeftAction:)];
+    self.navigationItem.leftBarButtonItem = leftButton;
 }
 
 
@@ -121,5 +125,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)selectLeftAction:(id)sender{
+    MainViewController *mainVC = (MainViewController *)self.parentViewController.parentViewController.parentViewController;
+    [mainVC.drawer open];
+}
 @end
 

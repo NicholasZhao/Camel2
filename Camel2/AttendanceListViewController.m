@@ -18,6 +18,12 @@ static NSString * const kAttendanceViewControllerCellReuseId = @"kAttendanceView
 
 @implementation AttendanceListViewController
 
+- (id)init {
+    if ([super init] != nil) {
+        self.title = @"考勤列表";
+    }
+    return self;
+}
 
 #pragma mark - Managing the view
 

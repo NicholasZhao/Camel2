@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FunctionListModule.h"
+#import "MainViewController.h"
 
 @interface DeskViewController : UIViewController
 

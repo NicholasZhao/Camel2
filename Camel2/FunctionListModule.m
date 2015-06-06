@@ -17,10 +17,8 @@
     // 初始化layout
     UICollectionViewFlowLayout * flowLayout =[[UICollectionViewFlowLayout alloc] init];
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
-    //    UIEdgeInsets top = {15,10,15,5};
-    //    [flowLayout setSectionInset:top];
     UICollectionView * collectionView =[[UICollectionView alloc] initWithFrame:CGRectMake(0, 180, self.view.frame.size.width, 180)collectionViewLayout:flowLayout];
-    collectionView.backgroundColor = [UIColor whiteColor];
+    collectionView.backgroundColor = [UIColor grayColor];
     //注册单元格
     [collectionView registerClass:[UICollectionViewCell class]forCellWithReuseIdentifier:identifier];
     //设置代理
@@ -42,7 +40,7 @@
 //设置元素的的大小框
 -(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
 {
-    UIEdgeInsets top = {30,30,30,30};
+    UIEdgeInsets top = {-30,30,30,30};
     return top;
 }
 //设置元素内容
@@ -82,8 +80,7 @@
         NSLog(@"clicking on function 2.");
         
         AttendanceListViewController *attendanceListVC = [[AttendanceListViewController alloc] init];
-        [self.view addSubview: attendanceListVC.view];
-        [self addChildViewController: attendanceListVC];
+        [self.navigationController pushViewController:attendanceListVC animated:TRUE];
         
     } else if (indexPath.item == 3) {
         NSLog(@"clicking on function 3.");

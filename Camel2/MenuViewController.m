@@ -40,20 +40,6 @@ static NSString * const kICSColorsViewControllerCellReuseId = @"kICSColorsViewCo
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
 }
 
-#pragma mark - Configuring the view’s layout behavior
-
-- (UIStatusBarStyle)preferredStatusBarStyle
-{
-    // Even if this view controller hides the status bar, implementing this method is still needed to match the center view controller's
-    // status bar style to avoid a flicker when the drawer is dragged and then left to open.
-    return UIStatusBarStyleLightContent;
-}
-
-- (BOOL)prefersStatusBarHidden
-{
-    return YES;
-}
-
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -73,7 +59,6 @@ static NSString * const kICSColorsViewControllerCellReuseId = @"kICSColorsViewCo
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kICSColorsViewControllerCellReuseId
                                                             forIndexPath:indexPath];
-    
     
 //    NSString *menuImage = [NSString stringWithFormat:@"%@%d", @"menu_", 0];
     cell.imageView.image = [UIImage imageNamed: @"hamburg.png"];
