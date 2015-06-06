@@ -69,8 +69,8 @@
 //UICollectionView被选中时调用的方法
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    UICollectionViewCell * cell = (UICollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    cell.backgroundColor = [UIColor grayColor];
+//    UICollectionViewCell * cell = (UICollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
+//    cell.backgroundColor = [UIColor grayColor];
     
     if (indexPath.item == 0) {
         NSLog(@"clicking on function 0.");
@@ -78,12 +78,14 @@
         NSLog(@"clicking on function 1.");
     } else if (indexPath.item == 2) {
         NSLog(@"clicking on function 2.");
-        
         AttendanceListViewController *attendanceListVC = [[AttendanceListViewController alloc] init];
         [self.navigationController pushViewController:attendanceListVC animated:TRUE];
         
     } else if (indexPath.item == 3) {
         NSLog(@"clicking on function 3.");
+        AVCaptureViewController *avCaptureVC = [[AVCaptureViewController alloc] init];
+        [self.navigationController pushViewController:avCaptureVC animated:TRUE];
+
     } else if (indexPath.item == 4) {
         NSLog(@"clicking on function 4.");
     } else if (indexPath.item == 5) {

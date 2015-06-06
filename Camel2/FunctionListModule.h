@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AttendanceListViewController.h"
+#import "AVCaptureViewController.h"
 
 @interface FunctionListModule : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
 {

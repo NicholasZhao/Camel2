@@ -29,6 +29,7 @@
 		1F3DA9CF1B14D29500434BA2 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3DA9CB1B14D29500434BA2 /* pinyin.c */; };
 		1F3DA9D01B14D29500434BA2 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3DA9CE1B14D29500434BA2 /* ChineseString.m */; };
 		1F3DA9D21B14D4A000434BA2 /* cute_head_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F3DA9D11B14D4A000434BA2 /* cute_head_image.jpg */; };
+		1F83F7A91B235563009B40AD /* AVCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83F7A81B235563009B40AD /* AVCaptureViewController.m */; };
 		B61BA2CB1B131DD4008C8162 /* AttendanceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61BA2CA1B131DD4008C8162 /* AttendanceListViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,8 @@
 		1F3DA9CD1B14D29500434BA2 /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
 		1F3DA9CE1B14D29500434BA2 /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
 		1F3DA9D11B14D4A000434BA2 /* cute_head_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_head_image.jpg; sourceTree = "<group>"; };
+		1F83F7A71B235563009B40AD /* AVCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureViewController.h; sourceTree = "<group>"; };
+		1F83F7A81B235563009B40AD /* AVCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureViewController.m; sourceTree = "<group>"; };
 		B61BA2C91B131DD4008C8162 /* AttendanceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceListViewController.h; sourceTree = "<group>"; };
 		B61BA2CA1B131DD4008C8162 /* AttendanceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -197,6 +200,8 @@
 				1F39226B1B12348500600D2D /* FunctionListModule.m */,
 				B61BA2C91B131DD4008C8162 /* AttendanceListViewController.h */,
 				B61BA2CA1B131DD4008C8162 /* AttendanceListViewController.m */,
+				1F83F7A71B235563009B40AD /* AVCaptureViewController.h */,
+				1F83F7A81B235563009B40AD /* AVCaptureViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 				1F3DA9D01B14D29500434BA2 /* ChineseString.m in Sources */,
 				1F3922281B12129500600D2D /* main.m in Sources */,
 				1F3922691B122FEC00600D2D /* ContactViewController.m in Sources */,
+				1F83F7A91B235563009B40AD /* AVCaptureViewController.m in Sources */,
 				1F3922511B12130800600D2D /* ICSDropShadowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
