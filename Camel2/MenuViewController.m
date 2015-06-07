@@ -38,6 +38,8 @@ static NSString * const kICSColorsViewControllerCellReuseId = @"kICSColorsViewCo
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kICSColorsViewControllerCellReuseId];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    
+    
 }
 
 #pragma mark - Table view data source
@@ -87,10 +89,6 @@ static NSString * const kICSColorsViewControllerCellReuseId = @"kICSColorsViewCo
                 
                 CompanyListViewController *companyListVC = [[CompanyListViewController alloc]init];
                 [weakSelf.drawer.centerViewController.view addSubview:companyListVC.view];
-//                [self.navigationController pushViewController:companyListVC animated:YES];
-                
-                //        [self.sideMenuViewController setMainViewController: [[UINavigationController alloc] initWithRootViewController:moreView] animated:YES closeMenu:YES];
-                
                 
             } else if (indexPath.row == 1) {
                 NSLog(@"clicking row 1");

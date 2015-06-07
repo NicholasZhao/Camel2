@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ICSDrawerController.h"
 #import "CompanyListViewController.h"
+#import "MainViewController.h"
 
 @interface MenuViewController : UITableViewController<ICSDrawerControllerChild, ICSDrawerControllerPresenting>
 

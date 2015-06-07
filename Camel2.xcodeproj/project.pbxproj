@@ -30,6 +30,7 @@
 		1F3DA9D01B14D29500434BA2 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3DA9CE1B14D29500434BA2 /* ChineseString.m */; };
 		1F3DA9D21B14D4A000434BA2 /* cute_head_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F3DA9D11B14D4A000434BA2 /* cute_head_image.jpg */; };
 		1F83F7A91B235563009B40AD /* AVCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83F7A81B235563009B40AD /* AVCaptureViewController.m */; };
+		1F83F7AD1B242B0B009B40AD /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83F7AC1B242B0B009B40AD /* HeaderView.m */; };
 		B61BA2CB1B131DD4008C8162 /* AttendanceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61BA2CA1B131DD4008C8162 /* AttendanceListViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,8 @@
 		1F3DA9D11B14D4A000434BA2 /* cute_head_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_head_image.jpg; sourceTree = "<group>"; };
 		1F83F7A71B235563009B40AD /* AVCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureViewController.h; sourceTree = "<group>"; };
 		1F83F7A81B235563009B40AD /* AVCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureViewController.m; sourceTree = "<group>"; };
+		1F83F7AB1B242B0B009B40AD /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		1F83F7AC1B242B0B009B40AD /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 		B61BA2C91B131DD4008C8162 /* AttendanceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceListViewController.h; sourceTree = "<group>"; };
 		B61BA2CA1B131DD4008C8162 /* AttendanceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +136,7 @@
 				1F39224B1B1212DE00600D2D /* ICSDrawerController */,
 				1F3DA9CA1B14D27700434BA2 /* ChineseSorting */,
 				1F3922521B1213CB00600D2D /* Controllers */,
+				1F83F7AA1B242AE1009B40AD /* Views */,
 				1F3922591B121B4400600D2D /* Resources */,
 				1F39222F1B12129500600D2D /* Main.storyboard */,
 				1F3922321B12129500600D2D /* Images.xcassets */,
@@ -226,6 +230,15 @@
 				1F3DA9CE1B14D29500434BA2 /* ChineseString.m */,
 			);
 			name = ChineseSorting;
+			sourceTree = "<group>";
+		};
+		1F83F7AA1B242AE1009B40AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F83F7AB1B242B0B009B40AD /* HeaderView.h */,
+				1F83F7AC1B242B0B009B40AD /* HeaderView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +353,7 @@
 				1F39222B1B12129500600D2D /* AppDelegate.m in Sources */,
 				1F3922641B122DBB00600D2D /* DeskViewController.m in Sources */,
 				1F3922581B1215B200600D2D /* MainViewController.m in Sources */,
+				1F83F7AD1B242B0B009B40AD /* HeaderView.m in Sources */,
 				B61BA2CB1B131DD4008C8162 /* AttendanceListViewController.m in Sources */,
 				1F39226C1B12348500600D2D /* FunctionListModule.m in Sources */,
 				1F3922611B122DAD00600D2D /* MessageViewController.m in Sources */,

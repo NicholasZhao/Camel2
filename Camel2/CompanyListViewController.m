@@ -16,17 +16,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.extendedLayoutIncludesOpaqueBars = NO;
+    self.modalPresentationCapturesStatusBarAppearance = NO;
     
     self.view.backgroundColor = [UIColor yellowColor];
     
-//    UILabel *title = [[UILabel alloc]init];
-//    title.text = @"我的企业列表";
-//    [self.view addSubview:title];
+    UIView *header = [[UIView alloc]initWithFrame:CGRectMake(0.0, 0.0, self.view.frame.size.width, 60)];
+    header.backgroundColor = [UIColor grayColor];
     
-//    UIButton *backButton = [[UIButton alloc]init];
-//    [self.view addSubview:backButton];
+    UILabel *title = [[UILabel alloc]initWithFrame:CGRectMake(100, 20, 120, 36)];
+    title.text = @"我的企业列表";
+//    [title sizeToFit];
+    [header addSubview:title];
     
+    UIButton *closeButton = [[UIButton alloc]initWithFrame:CGRectMake(self.view.frame.size.width - 100, 20, 64, 36)];
+    [closeButton addTarget:self action:@selector(dismissThisView:) forControlEvents:UIControlEventTouchUpInside];
+    closeButton.backgroundColor = [UIColor greenColor];
+//    [closeButton sizeToFit];
+    [header addSubview:closeButton];
+    
+    [self.view addSubview: header];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,14 +45,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)dismissThisView:(id)sender {
+//    [self dismissModalViewControllerAnimated:YES];
+    NSLog(@"Dismiss self view.");
 }
-*/
 
 @end
