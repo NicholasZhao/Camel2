@@ -29,6 +29,7 @@
 		1F3DA9CF1B14D29500434BA2 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F3DA9CB1B14D29500434BA2 /* pinyin.c */; };
 		1F3DA9D01B14D29500434BA2 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3DA9CE1B14D29500434BA2 /* ChineseString.m */; };
 		1F3DA9D21B14D4A000434BA2 /* cute_head_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F3DA9D11B14D4A000434BA2 /* cute_head_image.jpg */; };
+		1F4109C21B25F16F009763DC /* AttendanceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4109C11B25F16F009763DC /* AttendanceCell.m */; };
 		1F83F7A91B235563009B40AD /* AVCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83F7A81B235563009B40AD /* AVCaptureViewController.m */; };
 		1F83F7AD1B242B0B009B40AD /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83F7AC1B242B0B009B40AD /* HeaderView.m */; };
 		B61BA2CB1B131DD4008C8162 /* AttendanceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61BA2CA1B131DD4008C8162 /* AttendanceListViewController.m */; };
@@ -84,6 +85,8 @@
 		1F3DA9CD1B14D29500434BA2 /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
 		1F3DA9CE1B14D29500434BA2 /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
 		1F3DA9D11B14D4A000434BA2 /* cute_head_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_head_image.jpg; sourceTree = "<group>"; };
+		1F4109C01B25F16F009763DC /* AttendanceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceCell.h; sourceTree = "<group>"; };
+		1F4109C11B25F16F009763DC /* AttendanceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceCell.m; sourceTree = "<group>"; };
 		1F83F7A71B235563009B40AD /* AVCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureViewController.h; sourceTree = "<group>"; };
 		1F83F7A81B235563009B40AD /* AVCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureViewController.m; sourceTree = "<group>"; };
 		1F83F7AB1B242B0B009B40AD /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
@@ -237,6 +240,8 @@
 			children = (
 				1F83F7AB1B242B0B009B40AD /* HeaderView.h */,
 				1F83F7AC1B242B0B009B40AD /* HeaderView.m */,
+				1F4109C01B25F16F009763DC /* AttendanceCell.h */,
+				1F4109C11B25F16F009763DC /* AttendanceCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4109C21B25F16F009763DC /* AttendanceCell.m in Sources */,
 				1F3DA9CF1B14D29500434BA2 /* pinyin.c in Sources */,
 				1F39225E1B12270A00600D2D /* CompanyListViewController.m in Sources */,
 				1F3922501B12130800600D2D /* ICSDrawerController.m in Sources */,

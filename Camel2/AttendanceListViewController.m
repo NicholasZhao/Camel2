@@ -49,14 +49,23 @@ static NSString * const kAttendanceViewControllerCellReuseId = @"kAttendanceView
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kAttendanceViewControllerCellReuseId
-                                                            forIndexPath:indexPath];
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kAttendanceViewControllerCellReuseId
+//                                                            forIndexPath:indexPath];
+//    
+//    //    NSString *menuImage = [NSString stringWithFormat:@"%@%d", @"menu_", 0];
+//    cell.imageView.image = [UIImage imageNamed: @"hamburg.png"];
+//    cell.textLabel.text = self.attendanceItems[indexPath.row];
+//    //    cell.textLabel.textColor = [UIColor whiteColor];
+//    //    cell.backgroundColor = self.menuItems[indexPath.row];
+//    
+    static NSString *identifier = @"cell";
     
-    //    NSString *menuImage = [NSString stringWithFormat:@"%@%d", @"menu_", 0];
-    cell.imageView.image = [UIImage imageNamed: @"hamburg.png"];
-    cell.textLabel.text = self.attendanceItems[indexPath.row];
-    //    cell.textLabel.textColor = [UIColor whiteColor];
-    //    cell.backgroundColor = self.menuItems[indexPath.row];
+    AttendanceCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (cell == nil) {
+        cell = [[AttendanceCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+    }
+    
+    [cell setLabel1Text:@"222222222" label2Text:@"333333333"];
     
     return cell;
 }
